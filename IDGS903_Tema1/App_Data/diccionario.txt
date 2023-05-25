@@ -1,0 +1,4 @@
+Hello , Hola
+Red , Rojo
+Blue , Azul
+Purple , Morado

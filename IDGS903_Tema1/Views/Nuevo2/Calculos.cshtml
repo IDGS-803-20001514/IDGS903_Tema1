@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewBag.Title = "Calculos";
+}
+
+<h2>Calculos</h2>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+            <form action="/" method="POST">
+                <label>Numro 1:</label>
+                <input type="text" name="n1" value="" />
+                <br />
+
+                <label>Numro 2:</label>
+                <input type="text" name="n2" value="" />
+                <br /><br />
+
+                <input type="radio" name="operacion" value="suma" />
+                <label>Sumar</label>
+
+                <br />
+
+                <input type="radio" name="operacion" value="resta" />
+                <label>Restar</label>
+
+                <br />
+
+                <input type="radio" name="operacion" value="multiplicacion" />
+                <label>Multiplicacion</label>
+
+                <br />
+
+                <input type="radio" name="operacion" value="division" />
+                <label>Division</label>
+
+                <br /><br />
+
+                <input type="submit" value="Calcular" />
+            </form>
+        </div>
+        <div class="col-lg-6">
+            <h1>El resultado es: @ViewBag.Res</h1>
+        </div>
+    </div>
+</div>
