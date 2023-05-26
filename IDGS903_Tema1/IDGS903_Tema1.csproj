@@ -121,6 +121,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\ArchivosController.cs" />
+    <Compile Include="Controllers\CalcularAreaController.cs" />
     <Compile Include="Controllers\DistanciaController.cs" />
     <Compile Include="Controllers\EscuelaController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -138,6 +139,7 @@
     <Compile Include="Models\OperasBas.cs" />
     <Compile Include="Models\palabras.cs" />
     <Compile Include="Models\Pulques.cs" />
+    <Compile Include="Models\Triangulo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Servicios\GuardaService.cs" />
     <Compile Include="Servicios\LeerService.cs" />
@@ -218,6 +220,7 @@
     <Content Include="Views\Archivos\LeerDatos.cshtml" />
     <Content Include="Views\TraductorES_ING\GuardarPalabra.cshtml" />
     <Content Include="Views\TraductorES_ING\TraducirPalabras.cshtml" />
+    <Content Include="Views\CalcularArea\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
